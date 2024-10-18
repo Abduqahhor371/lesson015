@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar__collection{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    gap: 34px;
+}
+section{
+    overflow: hidden;
+}
+.wrapper{
+    margin-bottom: 38px;
+}
+.card{
+    display: flex;
+    background: #F9F6F5;
+}
+.card__text{
+    margin-top: 38px;
+    margin-left: 56px;
+}
+.card__text h2{
+font-size: 50px;
+display: block;
+margin-bottom: 30px;
+}
+.card__text p{
+    color: #ddd;
+    display: block;
+    margin-bottom: 30px;
+}
+.card__input{
+    width: 500px;
+    height: 60px;
+    border-radius: 12px;
+}
+.icons{
+    width: 100%;
+    height: 77px;
+    display: flex;
+    gap: 66px;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+.wrapper{
+    display: flex;
+}
+.hero__btn{
+width: 100px;
+height: 45px;
+background: #672902;
+color: white;
+border: 0;
+}
+.btn{
+    width: 100px;
+    height: 45px;
+    border: 0;
+}
+.hero__two{
+    display: flex;
+    margin-top: 38px;
+    margin-bottom: 48px;
+}
+.text{
+    text-align: center;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+    background: #FDF8F5;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
